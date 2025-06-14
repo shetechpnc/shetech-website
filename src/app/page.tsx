@@ -1,14 +1,17 @@
-// src/app/page.tsx
+"use client";
+import React from "react";
+import Home from "../app/pages/home/page";
 
 
-export default function Home() {
+const Page: React.FC = () => {
   return (
     <>
-    
-      <main className="p-4">
-        <h1 className="text-3xl font-bold">Welcome to SheTech</h1>
-      
-      </main>
+      <Home />
+     
     </>
   );
-}
+};
+
+export default Page;
+
+
