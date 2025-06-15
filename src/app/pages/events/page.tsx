@@ -1,13 +1,7 @@
-
-
 export default function Events() {
   return (
-    <>
-    
-      <main className="p-4">
-        <h1 className="text-3xl font-bold">Welcome to events page</h1>
-      
-      </main>
-    </>
+    <section className="min-h-screen flex items-center justify-center">
+      <h1 className="text-4xl font-bold">Events Page Coming Soon!</h1>
+    </section>
   );
 }

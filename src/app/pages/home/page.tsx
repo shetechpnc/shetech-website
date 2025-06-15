@@ -8,7 +8,7 @@ export default function Home() {
         Empowering women in technology through collaboration, innovation, and growth.
       </p>
       <a
-        href="/events"
+        href="/pages/events"
         className="bg-white text-red-600 font-semibold px-6 py-3 rounded-lg hover:bg-red-100 transition"
       >
         Explore Events
