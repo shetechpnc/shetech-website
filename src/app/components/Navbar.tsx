@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16 items-center">
           <Link href="/" className="flex items-center space-x-2">
             <Image src="/assets/logo.png" alt="SheTech Logo" width={40} height={40} />
-            <span><Link href="/" className="text-xl font-semibold text-pink-600">SheTech</Link></span>
+            <span className="text-xl font-semibold text-pink-600">SheTech</span>
           </Link>
 
           <div className="hidden md:flex space-x-6">
