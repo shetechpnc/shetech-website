@@ -1,3 +1,5 @@
+
+
 export default function Home() {
   return (
     <section className="bg-[#d47bb7] text-white min-h-screen flex flex-col items-center justify-center px-4 text-center">
