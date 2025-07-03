@@ -54,7 +54,7 @@ export default function FAQPage() {
         {faqs.map((faq, index) => {
           const isOpen = openIndexes.includes(index);
           return (
-            <div key={index} className="border rounded-[15px]  border-[#D3D3D3] shadow-sm">
+            <div key={index} className="border rounded-[15px]  border-[#D3D3D3] shadow-sm hover:border-pink-400">
               <button
                 onClick={() => toggleFAQ(index)}
                 className="w-full flex justify-between items-center p-4 text-left focus:outline-none"

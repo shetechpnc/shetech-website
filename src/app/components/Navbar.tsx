@@ -9,15 +9,15 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-[30px] sm:px-0 lg:px-0 lg:mx-[70px]">
         <div className="flex justify-between h-16 items-center">
           <Link href="/" className="flex items-center space-x-2">
-            <Image src="/assets/logo.png" alt="SheTech Logo" width={40} height={40} />
-            <span className="text-xl font-semibold text-pink-600">SheTech</span>
+            <Image src="/assets/logo.svg" alt="SheTech Logo" width={73} height={50}/>
+            <span className="text-2xl font-semibold text-pink-600 font-sans">SheTech</span>
           </Link>
 
-          <div className="hidden md:flex space-x-6">
-            <Link href="/pages/events" className="text-gray-700 hover:text-pink-600">Events</Link>
+          <div className="hidden md:flex space-x-12">
+            <Link href="/pages/events" className="text-gray-700 hover:text-pink-600 font-sans">Events</Link>
             <Link href="/pages/faq" className="text-gray-700 hover:text-pink-600">FAQ</Link>
             <Link href="/pages/gallery" className="text-gray-700 hover:text-pink-600">Gallery</Link>
             <Link href="/pages/contact" className="text-gray-700 hover:text-pink-600">Contact</Link>
@@ -28,7 +28,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 focus:outline-none text-2xl"
+              className="text-gray-700 focus:outline-none text-2xl ml-[150px]"
             >
               ☰
             </button>
