@@ -19,11 +19,9 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-20 items-center">
-          {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <Image src="/assets/logo.png" alt="SheTech Logo" width={80} height={80} />
-        
+        <div className="flex justify-between h-16 items-center">
+          <Link href="/" className="flex space-x-1 ml-[-50px]">
+            <Image src="/assets/logo-without-slogan.png" alt="SheTech Logo" width={120} height={120} />
           </Link>
 
           {/* Desktop Links */}
