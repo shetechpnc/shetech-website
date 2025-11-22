@@ -26,16 +26,18 @@ export default function TeamSection() {
         The faces of future <span className="text-pink-500">Women Leaders</span>
       </h1>
 
-      <motion.div
-        className="flex gap-8 w-max mx-auto"
-        initial={{ x: "0%" }}
-        animate={{ x: ["0%", "-100%"] }}
-        transition={{ repeat: Infinity, duration: 100, ease: "linear" }}
-      >
-        {teamMembers.concat(teamMembers).map((member, i) => (
-          <TeamCard key={i} {...member} />
-        ))}
-      </motion.div>
+     <motion.div className="overflow-hidden w-full">
+  <motion.div
+    className="flex gap-8 w-max"
+    initial={{ x: "0%" }}
+    animate={{ x: ["0%", "-100%"] }}
+    transition={{ repeat: Infinity, duration: 100, ease: "linear" }}
+  >
+    {teamMembers.concat(teamMembers).map((member, i) => (
+      <TeamCard key={i} {...member} />
+    ))}
+  </motion.div>
+</motion.div>
 
       <Link href="/pages/teams">
         <motion.div
