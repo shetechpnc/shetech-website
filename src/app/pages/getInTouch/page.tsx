@@ -1,6 +1,6 @@
 
 
-export default function GetInTouc() {
+export default function GetInTouch() {
   return (
     <>
     

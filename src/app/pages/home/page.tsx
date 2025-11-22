@@ -1,9 +1,15 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import EventSection from './Event'
+import About from '../about/page'
 
+import GallerySection from './GallerySection'
+import FAQPage from "../faq/page";
+import GetInTouch from "../getInTouch/page";
 export default function Home() {
   return (
+    <div>
     <section className="relative  lg:w-[1400px] bg-gradient-to-b from-[#FEF9FD] via-[#FCE7F3] to-[#FEF9FD] py-16 overflow-hidden">
       {/* Background Blurs */}
       <div className="absolute top-[-50px] left-[-50px] w-[200px] h-[200px] bg-[#f7d276] rounded-full blur-3xl opacity-30 z-0"></div>
@@ -86,5 +92,13 @@ export default function Home() {
         </div>
       </div>
     </section>
+    <About />
+    <EventSection />
+      <FAQPage />
+     
+    <GallerySection />
+     <GetInTouch />
+    </div>
   );
+
 }

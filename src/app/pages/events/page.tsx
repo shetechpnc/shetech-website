@@ -44,7 +44,7 @@ const Page = () => {
 
         {/* Breadcrumb */}
         <div className="text-sm text-gray-500 mb-2">
-          Home / <span className="text-black">Our Events</span>
+      
         </div>
 
         {/* Page Title */}
