@@ -1,24 +1,26 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import TeamCard from "../../components/TeamCard";
 
-const teamMembers = [
- { name: "Sarika Ghimire", position: "President", photo: "/assets/team/SarikaGhimire.png" },
-  { name: "Priti Ranabhat", position: "Vice-President", photo: "/assets/team/PritiRanabhat.png" },
-  { name: "Pooja Gurung", position: "Secretary", photo: "/assets/team/PoojaGurung.png" },
-  { name: "Savyata Bhurtel", position: "Treasurer", photo: "/assets/team/SavyataBhurtel.png" },
-  { name: "Swostika Shrestha", position: "Graphics Designer", photo: "/assets/team/SwostikaShrestha.png" },
-  { name: "Purnima Wagle", position: "Tech Lead", photo: "/assets/team/PurnimaWagle.png" },
-  { name: "Rashmi KC", position: "Social Media Lead", photo: "/assets/team/RashmiKC.png" },
-  { name: "Binita Dhakal", position: "PR Lead", photo: "/assets/team/BinitaDhakal.png" },
-  { name: "Mamta Thapa", position: "Executive", photo: "/assets/team/MamtaThapa.png" },
-  { name: "Dinisha Gyanwali", position: "Event Manager", photo: "/assets/team/DinishaGyanwali.png" },
-  { name: "Dikshya Devkota", position: "Executive", photo: "/assets/team/DikshyaDevkota.png" },
-];
+type Team = {
+  name: string;
+  position: string;
+  photo: string;
+  tenure: string;
+};
 
 export default function TeamSection() {
+  const [teams, setTeams] = useState<Team[]>([]);
+
+  useEffect(() => {
+    fetch(`/assets/team/2024-25/data.json`)
+      .then((res) => res.json())
+      .then((json: Team[]) => setTeams(json))
+      .catch((err) => console.error("Failed to load teams:", err));
+  }, []);
+
   return (
     <section className="bg-pink-50 py-10 mt-20">
       <p className="text-center text-[#555555] font-semibold">OUR TEAM</p>
@@ -26,18 +28,18 @@ export default function TeamSection() {
         The faces of future <span className="text-pink-500">Women Leaders</span>
       </h1>
 
-     <motion.div className="overflow-hidden w-full">
-  <motion.div
-    className="flex gap-8 w-max"
-    initial={{ x: "0%" }}
-    animate={{ x: ["0%", "-100%"] }}
-    transition={{ repeat: Infinity, duration: 100, ease: "linear" }}
-  >
-    {teamMembers.concat(teamMembers).map((member, i) => (
-      <TeamCard key={i} {...member} />
-    ))}
-  </motion.div>
-</motion.div>
+      <motion.div className="overflow-hidden w-full">
+        <motion.div
+          className="flex gap-8 w-max"
+          initial={{ x: "0%" }}
+          animate={{ x: ["0%", "-100%"] }}
+          transition={{ repeat: Infinity, duration: 100, ease: "linear" }}
+        >
+          {teams.concat(teams).map((member, i) => (
+            <TeamCard key={i} {...member} />
+          ))}
+        </motion.div>
+      </motion.div>
 
       <Link href="/pages/teams">
         <motion.div
