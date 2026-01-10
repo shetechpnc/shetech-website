@@ -11,7 +11,7 @@ type Team = {
 
 export default function TeamPage() {
   const [teams, setTeams] = useState<Team[]>([]);
-  const [selectedTenure, setSelectedTenure] = useState("2024/25");
+  const [selectedTenure, setSelectedTenure] = useState("2025/26");
 
   useEffect(() => {
     fetch(`/assets/team/${selectedTenure.replace("/", "-")}/data.json`)
