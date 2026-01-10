@@ -77,5 +77,47 @@
     "year": "2024/25",
     "description": "BlueTeam Squad : Hands On Cybersecurity Defense? By Prakriti Timilsina from 21st to 24th may in LA Grandee International College.",
     "image": "/assets/events/images/blueteam.jpg"
+  },
+  {
+    "id": 12,
+    "title": "2nd General Meeting",
+    "year": "2025/26",
+    "description": "2nd General Meeting with General Members by SheTech PNC in White House,PN",
+    "image": "/assets/events/images/2ndGeneralMeeting.jpeg"
+  },
+  {
+    "id": 13,
+    "title": "From Click2Cash",
+    "year": "2025/26",
+    "description": "A FinTech & E-commerce Dive by Jonatham Bhurtel on 1st Bhadra, 2082 (online).",
+    "image": "/assets/events/images/Click2Cash.jpeg"
+  },
+  {
+    "id": 14,
+    "title": "Digital Marketing Design",
+    "year": "2025/26",
+    "description": "From Strategy to Storytelling by Mr. Abhash Adhikari on Asoj 9 to Asoj 11,2082 (online).",
+    "image": "/assets/events/images/DigitalMarketing.jpeg"
+  },
+  {
+    "id": 15,
+    "title": "AI Launchpad",
+    "year": "2025/26",
+    "description": "Takeoff to the Intelligent Era by Mr. Bipin Neupane on 28th Kartik, 2082 (online).",
+    "image": "/assets/events/images/AiLaunchpad.jpeg"
+  },
+  {
+    "id": 16,
+    "title": "Cyber Safety and Cyber Bullying Awareness Program",
+    "year": "2025/26",
+    "description": "Cyber Safety and Cyber Bullying Awareness Program at SOS Hermann Gmeiner School in collaboration with the STEAM Club of SOS School on November 28th, 2025 (Physical).",
+    "image": "/assets/events/images/CyberAwareness.jpeg"
+  },
+  {
+    "id": 17,
+    "title": "Web Fundamentals",
+    "year": "2025/26",
+    "description": "From Structure to Function by Miss Ayushma Kafle on 6th and 7th Poush, 2082 (Physical)",
+    "image": "/assets/events/images/HtmlCssJs.jpeg"
   }
 ]
