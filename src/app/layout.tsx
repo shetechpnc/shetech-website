@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import Navbar from './components/Navbar'
-import { ReduxProvider } from './redux/provider';
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import { ReduxProvider } from "./redux/provider";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -14,7 +15,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -26,8 +26,11 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ReduxProvider>
-           <Navbar/>
-        {children}
+          <Navbar />
+
+          <main className="min-h-screen">{children}</main>
+
+          <Footer />
         </ReduxProvider>
       </body>
     </html>
