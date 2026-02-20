@@ -1,13 +1,69 @@
 [
-   { "name": "Savyata Bhurtel", "position": "President", "photo": "/assets/team/2025-26/images/SavyataBhurtel.jpeg", "tenure": "2025/26" },
-  { "name": "Pooja Gurung", "position": "Vice-President", "photo": "/assets/team/2025-26/images/PoojaGurung.png", "tenure": "2025/26" },
-  { "name": "Binita Dhakal", "position": "Secretary", "photo": "/assets/team/2025-26/images/BinitaDhakalSecretary.jpg", "tenure": "2025/26" },
-  { "name": "Mamta Thapa", "position": "Treasurer", "photo": "/assets/team/2025-26/images/MamtaThapa.png", "tenure": "2025/26" },
-  { "name": "Anushka Aryal", "position": "Graphics Designer", "photo": "/assets/team/2025-26/images/AnuskaAryal.png", "tenure": "2025/26" },
-  { "name": "Shristi Dhakal", "position": "Tech Lead", "photo": "/assets/team/2025-26/images/ShristiDhakal.png", "tenure": "2025/26" },
-  { "name": "Ritu Bhandari", "position": "Social Media Lead", "photo": "/assets/team/2025-26/images/RituBhandari.jpeg", "tenure": "2025/26" },
-  { "name": "Echhya Bhattarai", "position": "PR Lead", "photo": "/assets/team/2025-26/images/EchhyaBhattarai.jpeg", "tenure": "2025/26" },
-  { "name": "Pushpa Pun", "position": "Executive", "photo": "/assets/team/2025-26/images/PuspaPunExecutive.jpeg", "tenure": "2025/26" },
-  { "name": "Neeru Thapa", "position": "Event Manager", "photo": "/assets/team/2025-26/images/NeeruThapa.png", "tenure": "2025/26" },
-  { "name": "Beepana Roka", "position": "Executive", "photo": "/assets/team/2025-26/images/BeepanaRokaExecutive.HEIC", "tenure": "2025/26" }
+  {
+    "name": "Savyata Bhurtel",
+    "position": "President",
+    "photo": "/assets/team/2025-26/images/SavyataBhurtel.jpeg",
+    "tenure": "2025/26"
+  },
+  {
+    "name": "Pooja Gurung",
+    "position": "Vice-President",
+    "photo": "/assets/team/2025-26/images/PoojaGurung.png",
+    "tenure": "2025/26"
+  },
+  {
+    "name": "Binita Dhakal",
+    "position": "Secretary",
+    "photo": "/assets/team/2025-26/images/BinitaDhakalSecretary.jpg",
+    "tenure": "2025/26"
+  },
+  {
+    "name": "Mamta Thapa",
+    "position": "Treasurer",
+    "photo": "/assets/team/2025-26/images/MamtaThapa.png",
+    "tenure": "2025/26"
+  },
+  {
+    "name": "Anushka Aryal",
+    "position": "Graphics Designer",
+    "photo": "/assets/team/2025-26/images/AnuskaAryal.png",
+    "tenure": "2025/26"
+  },
+  {
+    "name": "Shristi Dhakal",
+    "position": "Tech Lead",
+    "photo": "/assets/team/2025-26/images/ShristiDhakal.png",
+    "tenure": "2025/26"
+  },
+  {
+    "name": "Ritu Bhandari",
+    "position": "Social Media Lead",
+    "photo": "/assets/team/2025-26/images/RituBhandari.jpeg",
+    "tenure": "2025/26"
+  },
+  {
+    "name": "Echhya Bhattarai",
+    "position": "PR Lead",
+    "photo": "/assets/team/2025-26/images/EchhyaBhattarai.jpeg",
+    "tenure": "2025/26"
+  },
+  {
+    "name": "Neeru Thapa",
+    "position": "Event Manager",
+    "photo": "/assets/team/2025-26/images/NeeruThapa.png",
+    "tenure": "2025/26"
+  },
+  {
+    "name": "Pushpa Pun",
+    "position": "Executive",
+    "photo": "/assets/team/2025-26/images/PuspaPunExecutive.jpeg",
+    "tenure": "2025/26"
+  },
+
+  {
+    "name": "Beepana Roka",
+    "position": "Executive",
+    "photo": "/assets/team/2025-26/images/BeepanaRoka.png",
+    "tenure": "2025/26"
+  }
 ]

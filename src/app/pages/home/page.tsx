@@ -6,7 +6,6 @@ import About from "../about/page";
 
 import GallerySection from "./GallerySection";
 import FAQPage from "../faq/page";
-import GetInTouch from "../getInTouch/page";
 export default function Home() {
   return (
     <div>
@@ -96,7 +95,6 @@ export default function Home() {
       <FAQPage />
 
       <GallerySection />
-      <GetInTouch />
     </div>
   );
 }

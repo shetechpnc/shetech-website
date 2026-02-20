@@ -1,13 +1,68 @@
 [
-   { "name": "Sarika Ghimire", "position": "President", "photo": "/assets/team/2024-25/images/SarikaGhimire.png", "tenure": "2024/25" },
-  { "name": "Priti Ranabhat", "position": "Vice-President", "photo": "/assets/team/2024-25/images/PritiRanabhat.png", "tenure": "2024/25" },
-  { "name": "Pooja Gurung", "position": "Secretary", "photo": "/assets/team/2024-25/images/PoojaGurung.png", "tenure": "2024/25" },
-  { "name": "Savyata Bhurtel", "position": "Treasurer", "photo": "/assets/team/2024-25/images/SavyataBhurtel.png", "tenure": "2024/25" },
-  { "name": "Swostika Shrestha", "position": "Graphics Designer", "photo": "/assets/team/2024-25/images/SwostikaShrestha.png", "tenure": "2024/25" },
-  { "name": "Purnima Wagle", "position": "Tech Lead", "photo": "/assets/team/2024-25/images/PurnimaWagle.png", "tenure": "2024/25" },
-  { "name": "Rashmi KC", "position": "Social Media Lead", "photo": "/assets/team/2024-25/images/RashmiKC.png", "tenure": "2024/25" },
-  { "name": "Binita Dhakal", "position": "PR Lead", "photo": "/assets/team/2024-25/images/BinitaDhakal.png", "tenure": "2024/25" },
-  { "name": "Mamta Thapa", "position": "Executive", "photo": "/assets/team/2024-25/images/MamtaThapa.png", "tenure": "2024/25" },
-  { "name": "Dinisha Gyanwali", "position": "Event Manager", "photo": "/assets/team/2024-25/images/DinishaGyanwali.png", "tenure": "2024/25" },
-  { "name": "Dikshya Devkota", "position": "Executive", "photo": "/assets/team/2024-25/images/DikshyaDevkota.png", "tenure": "2024/25" }
+  {
+    "name": "Sarika Ghimire",
+    "position": "President",
+    "photo": "/assets/team/2024-25/images/SarikaGhimire.png",
+    "tenure": "2024/25"
+  },
+  {
+    "name": "Priti Ranabhat",
+    "position": "Vice-President",
+    "photo": "/assets/team/2024-25/images/PritiRanabhat.png",
+    "tenure": "2024/25"
+  },
+  {
+    "name": "Pooja Gurung",
+    "position": "Secretary",
+    "photo": "/assets/team/2024-25/images/PoojaGurung.png",
+    "tenure": "2024/25"
+  },
+  {
+    "name": "Savyata Bhurtel",
+    "position": "Treasurer",
+    "photo": "/assets/team/2024-25/images/SavyataBhurtel.png",
+    "tenure": "2024/25"
+  },
+  {
+    "name": "Swostika Shrestha",
+    "position": "Graphics Designer",
+    "photo": "/assets/team/2024-25/images/SwostikaShrestha.png",
+    "tenure": "2024/25"
+  },
+  {
+    "name": "Purnima Wagle",
+    "position": "Tech Lead",
+    "photo": "/assets/team/2024-25/images/PurnimaWagle.png",
+    "tenure": "2024/25"
+  },
+  {
+    "name": "Rashmi KC",
+    "position": "Social Media Lead",
+    "photo": "/assets/team/2024-25/images/RashmiKC.png",
+    "tenure": "2024/25"
+  },
+  {
+    "name": "Binita Dhakal",
+    "position": "PR Lead",
+    "photo": "/assets/team/2024-25/images/BinitaDhakal.png",
+    "tenure": "2024/25"
+  },
+  {
+    "name": "Dinisha Gyanwali",
+    "position": "Event Manager",
+    "photo": "/assets/team/2024-25/images/DinishaGyanwali.png",
+    "tenure": "2024/25"
+  },
+  {
+    "name": "Mamta Thapa",
+    "position": "Executive",
+    "photo": "/assets/team/2024-25/images/MamtaThapa.png",
+    "tenure": "2024/25"
+  },
+  {
+    "name": "Dikshya Devkota",
+    "position": "Executive",
+    "photo": "/assets/team/2024-25/images/DikshyaDevkota.png",
+    "tenure": "2024/25"
+  }
 ]
