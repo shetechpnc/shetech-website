@@ -7,19 +7,24 @@ export default function GallerySection() {
   const images = [
     "/assets/gallery/img2.png",
     "/assets/gallery/img3.png",
- 
-       "/assets/gallery/img10.png",
-     "/assets/gallery/img16.png",
-      "/assets/gallery/img15.png",
-   
+
+    "/assets/gallery/img10.png",
+    "/assets/gallery/img16.png",
+    "/assets/gallery/img15.png",
   ];
 
   return (
-    <section className="bg-[#FEF9FD] py-16 px-4 sm:px-6 lg:px-8">
+    <section
+      id="gallery"
+      className="bg-[#FEF9FD] py-16 px-4 sm:px-6 lg:px-8 scroll-mt-20"
+    >
       <div className="max-w-7xl mx-auto text-center mb-12">
-        <h4 className="uppercase text-gray-500 text-sm font-medium tracking-wide">Our Gallery</h4>
+        <h4 className="uppercase text-gray-500 text-sm font-medium tracking-wide">
+          Our Gallery
+        </h4>
         <h2 className="mt-2 text-3xl sm:text-4xl font-bold text-[#333]">
-          Glimpses Of <span className="text-pink-500">Progress And Community</span> Building
+          Glimpses Of{" "}
+          <span className="text-pink-500">Progress And Community</span> Building
         </h2>
       </div>
 

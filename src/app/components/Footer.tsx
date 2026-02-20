@@ -10,7 +10,7 @@ import {
 
 export default function Footer() {
   const openGmail = () => {
-    const email = "recipient@example.com";
+    const email = "shetechpnc@gmail.com";
     const subject = "Your Subject";
     const body = "Your message here";
 
@@ -26,7 +26,12 @@ export default function Footer() {
         Any query? You can email us at
       </p>
 
-      <button onClick={openGmail}>shetechpnc@gmail.com</button>
+      <button
+        onClick={openGmail}
+        className="cursor-pointer hover:text-pink-500 transition-colors"
+      >
+        shetechpnc@gmail.com
+      </button>
 
       {/* Divider Text */}
       <p className="uppercase tracking-widest text-sm text-gray-600 mt-10 mb-4">
