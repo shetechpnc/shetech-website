@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import Image from 'next/image';
-import { useState } from 'react';
+import Link from "next/link";
+import Image from "next/image";
+import { useState } from "react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,8 +11,8 @@ const Navbar = () => {
     e.preventDefault();
     const target = document.querySelector(id);
     if (target) {
-      target.scrollIntoView({ behavior: 'smooth' });
-      setIsOpen(false); 
+      target.scrollIntoView({ behavior: "smooth" });
+      setIsOpen(false);
     }
   };
 
@@ -21,16 +21,45 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <Link href="/" className="flex space-x-1 ml-[-50px]">
-            <Image src="/assets/logo-without-slogan.png" alt="SheTech Logo" width={120} height={120} />
+            <Image
+              src="/assets/logo-without-slogan.png"
+              alt="SheTech Logo"
+              width={120}
+              height={120}
+            />
           </Link>
 
           {/* Desktop Links */}
           <div className="hidden md:flex space-x-6 text-[#333333] text-base font-medium">
-            <a href="#events" onClick={(e) => scrollTo(e, '#events')} className="hover:text-[#DD47A3] transition">Events</a>
-            <a href="#faq" onClick={(e) => scrollTo(e, '#faq')} className="hover:text-[#DD47A3] transition">FAQ</a>
-            <a href="#gallery" onClick={(e) => scrollTo(e, '#gallery')} className="hover:text-[#DD47A3] transition">Gallery</a>
-            <a href="#contact" onClick={(e) => scrollTo(e, '#contact')} className="hover:text-[#DD47A3] transition">Contact</a>
-            <a href="#teams" onClick={(e) => scrollTo(e, '#teams')} className="hover:text-[#DD47A3] transition">Our Teams</a>
+            <a
+              href="#events"
+              onClick={(e) => scrollTo(e, "#events")}
+              className="hover:text-[#DD47A3] transition"
+            >
+              Events
+            </a>
+            <a
+              href="#faq"
+              onClick={(e) => scrollTo(e, "#faq")}
+              className="hover:text-[#DD47A3] transition"
+            >
+              FAQ
+            </a>
+            <a
+              href="#gallery"
+              onClick={(e) => scrollTo(e, "#gallery")}
+              className="hover:text-[#DD47A3] transition"
+            >
+              Gallery
+            </a>
+
+            <a
+              href="#teams"
+              onClick={(e) => scrollTo(e, "#teams")}
+              className="hover:text-[#DD47A3] transition"
+            >
+              Our Teams
+            </a>
           </div>
 
           {/* Mobile Toggle */}
@@ -49,11 +78,34 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden px-4 pb-4 space-y-2 bg-white shadow text-[#333333] text-base">
-          <a href="#events" onClick={(e) => scrollTo(e, '#events')} className="block hover:text-[#DD47A3] transition">Events</a>
-          <a href="#faq" onClick={(e) => scrollTo(e, '#faq')} className="block hover:text-[#DD47A3] transition">FAQ</a>
-          <a href="#gallery" onClick={(e) => scrollTo(e, '#gallery')} className="block hover:text-[#DD47A3] transition">Gallery</a>
-          <a href="#contact" onClick={(e) => scrollTo(e, '#contact')} className="block hover:text-[#DD47A3] transition">Contact</a>
-          <a href="#teams" onClick={(e) => scrollTo(e, '#teams')} className="block hover:text-[#DD47A3] transition">Our Teams</a>
+          <a
+            href="#events"
+            onClick={(e) => scrollTo(e, "#events")}
+            className="block hover:text-[#DD47A3] transition"
+          >
+            Events
+          </a>
+          <a
+            href="#faq"
+            onClick={(e) => scrollTo(e, "#faq")}
+            className="block hover:text-[#DD47A3] transition"
+          >
+            FAQ
+          </a>
+          <a
+            href="#gallery"
+            onClick={(e) => scrollTo(e, "#gallery")}
+            className="block hover:text-[#DD47A3] transition"
+          >
+            Gallery
+          </a>
+          <a
+            href="#teams"
+            onClick={(e) => scrollTo(e, "#teams")}
+            className="block hover:text-[#DD47A3] transition"
+          >
+            Our Teams
+          </a>
         </div>
       )}
     </nav>

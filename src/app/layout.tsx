@@ -5,6 +5,14 @@ import { ReduxProvider } from "./redux/provider";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+export const metadata: Metadata = {
+  title: "SheTech PNC",
+  description: "A women-led tech community empowering growth and leadership",
+  icons: {
+    icon: "/favicon.jpeg",
+  },
+};
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],

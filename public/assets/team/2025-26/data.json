@@ -48,6 +48,12 @@
     "tenure": "2025/26"
   },
   {
+    "name": "Neeru Thapa",
+    "position": "Event Manager",
+    "photo": "/assets/team/2025-26/images/NeeruThapa.png",
+    "tenure": "2025/26"
+  },
+  {
     "name": "Pushpa Pun",
     "position": "Executive",
     "photo": "/assets/team/2025-26/images/PuspaPunExecutive.jpeg",
@@ -58,12 +64,6 @@
     "name": "Beepana Roka",
     "position": "Executive",
     "photo": "/assets/team/2025-26/images/BeepanaRoka.png",
-    "tenure": "2025/26"
-  },
-  {
-    "name": "Neeru Thapa",
-    "position": "Event Manager",
-    "photo": "/assets/team/2025-26/images/NeeruThapa.png",
     "tenure": "2025/26"
   }
 ]
