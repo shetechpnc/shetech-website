@@ -1,0 +1,123 @@
+[
+
+  {
+    "id": 1,
+    "title": "Tech To Trend",
+    "year": "2024/25",
+    "description": "Leveraging LinkedIn for Career Success - By Sandhya Karki on 19th Ashoj, 2081 (online).",
+    "image": "/assets/events/images/techtotrend.jpg"
+  },
+   {
+    "id": 2,
+    "title": "Open Source Foundation",
+    "year": "2024/25",
+    "description": "Your First Contribution by Rashika Karki on 10th Kartik, 2081( online)",
+    "image": "/assets/events/images/opensource.jpg"
+  },
+    {
+    "id": 3,
+    "title": "Welcome Orientation Program",
+    "year": "2024/25",
+    "description": "Welcoming Orientation for the new students of CSIT and BCA on nov 22, 2024 by SheTech PNC (physically)",
+    "image": "/assets/events/images/orientation.jpg"
+  },
+
+   {
+    "id": 4,
+    "title": "Kickstarting Your Career in Development",
+    "year": "2024/25",
+    "description": "Kickstarting Your Career in Development by Sarika Ghimire and Priti Ranabhat on 21st Mangsir in PN campus (for females only)",
+    "image": "/assets/events/images/kickstarting.jpg"
+  },
+   {
+    "id": 5,
+    "title": "Orientation Program For General Members",
+    "year": "2024/25",
+    "description": "Orientation Program For General Members on 30th Mangsir by SheTech PNC in White house, PN",
+    "image": "/assets/events/images/orientationgen.jpg"
+  },
+   {
+    "id": 6,
+    "title": "Freelancing Simplified",
+    "year": "2024/25",
+    "description": "Earn When You Learn by Sidhant Sharma on 20th Poush, 2081 (online)",
+    "image": "/assets/events/images/freelancing.jpg"
+  },
+   {
+    "id": 7,
+    "title": "The Art of UI/UX",
+    "year": "2024/25",
+    "description": "From Idea To Interface by Anisha Thapa on 25th and 26th Magh (physically attended and for females only",
+    "image": "/assets/events/images/uiux.jpg"
+  },
+   {
+    "id": 8,
+    "title": "Social Media 101",
+    "year": "2024/25",
+    "description": " Growth and Monetization Made Simple by Amrit Thapa on 25th Falgun (online)",
+    "image": "/assets/events/images/socialmedia.jpg"
+  },
+   {
+    "id": 9,
+    "title": "Page to Opportunity",
+    "year": "2024/25",
+    "description": "Resume & Cover Letter Essentials by Prayas Rajopadhyaya on 24th Bhaishak, 2082 (online)",
+    "image": "/assets/events/images/resume.jpg"
+  },
+   {
+    "id": 10,
+    "title": "All-female Hackathon",
+    "year": "2024/25",
+    "description": "All-female Hackathon by Shequel Foundation on 20th may",
+    "image": "/assets/events/images/allfemale.jpg"
+  },
+   {
+    "id": 11,
+    "title": "Hands On Cybersecurity Defense",
+    "year": "2024/25",
+    "description": "BlueTeam Squad : Hands On Cybersecurity Defense? By Prakriti Timilsina from 21st to 24th may in LA Grandee International College.",
+    "image": "/assets/events/images/blueteam.jpg"
+  },
+  {
+    "id": 12,
+    "title": "2nd General Meeting",
+    "year": "2025/26",
+    "description": "2nd General Meeting with General Members by SheTech PNC in White House,PN",
+    "image": "/assets/events/images/2ndGeneralMeeting.jpeg"
+  },
+  {
+    "id": 13,
+    "title": "From Click2Cash",
+    "year": "2025/26",
+    "description": "A FinTech & E-commerce Dive by Jonatham Bhurtel on 1st Bhadra, 2082 (online).",
+    "image": "/assets/events/images/Click2Cash.jpeg"
+  },
+  {
+    "id": 14,
+    "title": "Digital Marketing Design",
+    "year": "2025/26",
+    "description": "From Strategy to Storytelling by Mr. Abhash Adhikari on Asoj 9 to Asoj 11,2082 (online).",
+    "image": "/assets/events/images/DigitalMarketing.jpeg"
+  },
+  {
+    "id": 15,
+    "title": "AI Launchpad",
+    "year": "2025/26",
+    "description": "Takeoff to the Intelligent Era by Mr. Bipin Neupane on 28th Kartik, 2082 (online).",
+    "image": "/assets/events/images/AiLaunchpad.jpeg"
+  },
+  {
+    "id": 16,
+    "title": "Cyber Safety and Cyber Bullying Awareness Program",
+    "year": "2025/26",
+    "description": "Cyber Safety and Cyber Bullying Awareness Program at SOS Hermann Gmeiner School in collaboration with the STEAM Club of SOS School on November 28th, 2025 (Physical).",
+    "image": "/assets/events/images/CyberAwareness.jpeg"
+  },
+  {
+    "id": 17,
+    "title": "Web Fundamentals",
+    "year": "2025/26",
+    "description": "From Structure to Function by Miss Ayushma Kafle on 6th and 7th Poush, 2082 (Physical)",
+    "image": "/assets/events/images/HtmlCssJs.jpeg"
+  }
+]
