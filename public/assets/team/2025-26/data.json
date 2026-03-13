@@ -12,9 +12,9 @@
     "tenure": "2025/26"
   },
   {
-    "name": "Binita Dhakal",
+    "name": "Neeru Thapa",
     "position": "Secretary",
-    "photo": "/assets/team/2025-26/images/BinitaDhakalSecretary.jpg",
+    "photo": "/assets/team/2025-26/images/NeeruThapa.png",
     "tenure": "2025/26"
   },
   {
@@ -42,28 +42,35 @@
     "tenure": "2025/26"
   },
   {
-    "name": "Echhya Bhattarai",
-    "position": "PR Lead",
-    "photo": "/assets/team/2025-26/images/EchhyaBhattarai.jpeg",
-    "tenure": "2025/26"
-  },
-  {
-    "name": "Neeru Thapa",
-    "position": "Event Manager",
-    "photo": "/assets/team/2025-26/images/NeeruThapa.png",
-    "tenure": "2025/26"
-  },
-  {
     "name": "Pushpa Pun",
-    "position": "Executive",
+    "position": "PR Lead",
     "photo": "/assets/team/2025-26/images/PuspaPunExecutive.jpeg",
+    "tenure": "2025/26"
+  },
+  {
+    "name": "Beepana Roka",
+    "position": "Event Manager",
+    "photo": "/assets/team/2025-26/images/BeepanaRoka.png",
+    "tenure": "2025/26"
+  },
+  {
+    "name": "Anushree Poudel",
+    "position": "Executive",
+    "photo": "/assets/team/2025-26/images/AnushreePoudel.png",
     "tenure": "2025/26"
   },
 
   {
-    "name": "Beepana Roka",
+    "name": "Rabina Chhetri",
     "position": "Executive",
-    "photo": "/assets/team/2025-26/images/BeepanaRoka.png",
+    "photo": "/assets/team/2025-26/images/RabinaChhetri.png",
+    "tenure": "2025/26"
+  },
+
+  {
+    "name": "Mamita Shrestha",
+    "position": "Executive",
+    "photo": "/assets/team/2025-26/images/MamitaShrestha.png",
     "tenure": "2025/26"
   }
 ]
