@@ -25,7 +25,7 @@ export default function TeamSection() {
     <section id="teams" className="bg-pink-50 py-10 mt-20 scroll-mt-20">
       <p className="text-center text-[#555555] font-semibold">OUR TEAM</p>
       <h1 className="text-4xl text-center font-serif mb-8">
-        The faces of future <span className="text-pink-500">Women Leaders</span>
+        The faces of Women <span className="text-pink-500">Driving Changes</span>
       </h1>
 
       <motion.div className="overflow-hidden w-full">
