@@ -3,12 +3,22 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
 
   const scrollTo = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
     e.preventDefault();
+
+    // If we're not on the homepage, navigate to homepage with hash
+    if (pathname !== "/") {
+      window.location.href = `/${id}`;
+      return;
+    }
+
+    // If we're on homepage, scroll to section
     const target = document.querySelector(id);
     if (target) {
       target.scrollIntoView({ behavior: "smooth" });
