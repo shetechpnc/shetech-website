@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Anushka Aryal",
+    "position": "President",
+    "photo": "/assets/team/2026-27/images/AnushkaAryal.jpeg",
+    "tenure": "2026/27"
+  },
+  {
+    "name": "Ritu Bhandari",
+    "position": "Vice-President",
+    "photo": "/assets/team/2026-27/images/RituBhandari.jpeg",
+    "tenure": "2026/27"
+  },
+  {
+    "name": "Anushree Poudel",
+    "position": "Secretary",
+    "photo": "/assets/team/2026-27/images/AnushreePoudel.jpeg",
+    "tenure": "2026/27"
+  },
+  {
+    "name": "Beepana Roka",
+    "position": "Treasurer",
+    "photo": "/assets/team/2026-27/images/BeepanaRoka.jpeg",
+    "tenure": "2026/27"
+  },
+  {
+    "name": "Diya Gurung",
+    "position": "Graphics Designer",
+    "photo": "/assets/team/2026-27/images/DiyaGurung.jpeg",
+    "tenure": "2026/27"
+  },
+  {
+    "name": "Mamita Shrestha",
+    "position": "Tech Lead",
+    "photo": "/assets/team/2026-27/images/MamitaShrestha.jpeg",
+    "tenure": "2026/27"
+  },
+  {
+    "name": "Nikita Thapa Magar",
+    "position": "Social Media Lead",
+    "photo": "/assets/team/2026-27/images/NikitaThapaMagar.jpeg",
+    "tenure": "2026/27"
+  },
+  {
+    "name": "Neeshu Poudel",
+    "position": "PR Lead",
+    "photo": "/assets/team/2026-27/images/NeeshuPoudel.jpeg",
+    "tenure": "2026/27"
+  },
+  {
+    "name": "Rabina Chhetri",
+    "position": "Event Manager",
+    "photo": "/assets/team/2026-27/images/RabinaChhetri.jpeg",
+    "tenure": "2026/27"
+  },
+  {
+    "name": "Sarisma Thapa",
+    "position": "Executive",
+    "photo": "/assets/team/2026-27/images/SarismaThapa.jpeg",
+    "tenure": "2026/27"
+  }
+  
+]

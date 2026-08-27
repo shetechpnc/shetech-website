@@ -4,7 +4,7 @@
 // export default function TeamCard({ name, position, photo }: { name: string; position: string; photo: string }) {
 //   return (
 //     <div className="flex-shrink-0 w-64 h-80 rounded-lg shadow-lg p-4 flex flex-col items-center justify-start bg-white">
-//       <img src={photo} alt={name} className="w-full h-56 object-cover mb-4 rounded-md" />
+//       <img src={photo} alt={name} className="w-full h-56 object-cover object-top mb-4 rounded-md" />
 //       <h2 className="text-xl font-semibold text-pink-600 text-center">{name}</h2>
 //       <p className="text-gray-600 text-center">{position}</p>
 //     </div>

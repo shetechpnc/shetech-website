@@ -15,7 +15,7 @@ export default function TeamSection() {
   const [teams, setTeams] = useState<Team[]>([]);
 
   useEffect(() => {
-    fetch(`/assets/team/2025-26/data.json`)
+    fetch(`/assets/team/2026-27/data.json`)
       .then((res) => res.json())
       .then((json: Team[]) => setTeams(json))
       .catch((err) => console.error("Failed to load teams:", err));
