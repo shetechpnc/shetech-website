@@ -1,0 +1,94 @@
+[1mdiff --git a/package-lock.json b/package-lock.json[m
+[1mindex 8d03f8f..2469deb 100644[m
+[1m--- a/package-lock.json[m
+[1m+++ b/package-lock.json[m
+[36m@@ -1418,7 +1418,6 @@[m
+       "integrity": "sha512-JeG0rEWak0N6Itr6QUx+X60uQmN+5t3j9r/OVDtWzFXKaj6kD1BwJzOksD0FF6iWxZlbE1kB0q9vtnU2ekqa1Q==",[m
+       "devOptional": true,[m
+       "license": "MIT",[m
+[31m-      "peer": true,[m
+       "dependencies": {[m
+         "csstype": "^3.0.2"[m
+       }[m
+[36m@@ -1485,7 +1484,6 @@[m
+       "integrity": "sha512-qwxv6dq682yVvgKKp2qWwLgRbscDAYktPptK4JPojCwwi3R9cwrvIxS4lvBpzmcqzR4bdn54Z0IG1uHFskW4dA==",[m
+       "dev": true,[m
+       "license": "MIT",[m
+[31m-      "peer": true,[m
+       "dependencies": {[m
+         "@typescript-eslint/scope-manager": "8.33.1",[m
+         "@typescript-eslint/types": "8.33.1",[m
+[36m@@ -1974,7 +1972,6 @@[m
+       "integrity": "sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==",[m
+       "dev": true,[m
+       "license": "MIT",[m
+[31m-      "peer": true,[m
+       "bin": {[m
+         "acorn": "bin/acorn"[m
+       },[m
+[36m@@ -2837,7 +2834,6 @@[m
+       "integrity": "sha512-ocgh41VhRlf9+fVpe7QKzwLj9c92fDiqOj8Y3Sd4/ZmVA4Btx4PlUYPq4pp9JDyupkf1upbEXecxL2mwNV7jPQ==",[m
+       "dev": true,[m
+       "license": "MIT",[m
+[31m-      "peer": true,[m
+       "dependencies": {[m
+         "@eslint-community/eslint-utils": "^4.2.0",[m
+         "@eslint-community/regexpp": "^4.12.1",[m
+[36m@@ -3012,7 +3008,6 @@[m
+       "integrity": "sha512-ixmkI62Rbc2/w8Vfxyh1jQRTdRTF52VxwRVHl/ykPAmqG+Nb7/kNn+byLP0LxPgI7zWA16Jt82SybJInmMia3A==",[m
+       "dev": true,[m
+       "license": "MIT",[m
+[31m-      "peer": true,[m
+       "dependencies": {[m
+         "@rtsao/scc": "^1.1.0",[m
+         "array-includes": "^3.1.8",[m
+[36m@@ -5202,7 +5197,6 @@[m
+       "resolved": "https://registry.npmjs.org/react/-/react-19.1.0.tgz",[m
+       "integrity": "sha512-FS+XFBNvn3GTAWq26joslQgWNoFu08F4kl0J4CgdNKADkdSGXQyTCnKteIAJy96Br6YbpEU1LSzV5dYtjMkMDg==",[m
+       "license": "MIT",[m
+[31m-      "peer": true,[m
+       "engines": {[m
+         "node": ">=0.10.0"[m
+       }[m
+[36m@@ -5212,7 +5206,6 @@[m
+       "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-19.1.0.tgz",[m
+       "integrity": "sha512-Xs1hdnE+DyKgeHJeJznQmYMIBG3TKIHJJT95Q58nHLSrElKlGQqDTR2HQ9fx5CN/Gk6Vh/kupBTDLU11/nDk/g==",[m
+       "license": "MIT",[m
+[31m-      "peer": true,[m
+       "dependencies": {[m
+         "scheduler": "^0.26.0"[m
+       },[m
+[36m@@ -5241,7 +5234,6 @@[m
+       "resolved": "https://registry.npmjs.org/react-redux/-/react-redux-9.2.0.tgz",[m
+       "integrity": "sha512-ROY9fvHhwOD9ySfrF0wmvu//bKCQ6AeZZq1nJNtbDC+kk5DuSuNX/n6YWYF/SYy7bSba4D4FSz8DJeKY/S/r+g==",[m
+       "license": "MIT",[m
+[31m-      "peer": true,[m
+       "dependencies": {[m
+         "@types/use-sync-external-store": "^0.0.6",[m
+         "use-sync-external-store": "^1.4.0"[m
+[36m@@ -5264,8 +5256,7 @@[m
+       "version": "5.0.1",[m
+       "resolved": "https://registry.npmjs.org/redux/-/redux-5.0.1.tgz",[m
+       "integrity": "sha512-M9/ELqF6fy8FwmkpnF0S3YKOqMyoWJ4+CS5Efg2ct3oY9daQvd/Pc71FpGZsVsbl3Cpb+IIcjBDUnnyBdQbq4w==",[m
+[31m-      "license": "MIT",[m
+[31m-      "peer": true[m
+[32m+[m[32m      "license": "MIT"[m
+     },[m
+     "node_modules/redux-thunk": {[m
+       "version": "3.1.0",[m
+[36m@@ -5957,7 +5948,6 @@[m
+       "integrity": "sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==",[m
+       "dev": true,[m
+       "license": "MIT",[m
+[31m-      "peer": true,[m
+       "engines": {[m
+         "node": ">=12"[m
+       },[m
+[36m@@ -6107,7 +6097,6 @@[m
+       "integrity": "sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==",[m
+       "dev": true,[m
+       "license": "Apache-2.0",[m
+[31m-      "peer": true,[m
+       "bin": {[m
+         "tsc": "bin/tsc",[m
+         "tsserver": "bin/tsserver"[m
