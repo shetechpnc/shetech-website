@@ -121,6 +121,7 @@ const Gallery = () => {
               <option value="Best Match">Best Match</option>
               <option value="2024/25">Tenure 2024/25</option>
               <option value="2025/26">Tenure 2025/26</option>
+              <option value="2026/27">Tenure 2026/27</option>
             </select>
 
             {/* Chevron Icon */}

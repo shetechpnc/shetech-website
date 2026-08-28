@@ -24,5 +24,12 @@
   { "id": 23, "image": "/assets/gallery/img24.jpeg", "year": "2025/26" },
   { "id": 24, "image": "/assets/gallery/img25.jpeg", "year": "2025/26" },
   { "id": 25, "image": "/assets/gallery/img26.jpeg", "year": "2025/26" },
-  { "id": 26, "image": "/assets/gallery/img27.jpeg", "year": "2025/26" }
+  { "id": 26, "image": "/assets/gallery/img27.jpeg", "year": "2025/26" },
+  { "id": 27, "image": "/assets/gallery/img28.jpeg", "year": "2025/26" },
+  { "id": 28, "image": "/assets/gallery/img29.jpeg", "year": "2025/26" },
+  { "id": 29, "image": "/assets/gallery/img30.jpeg", "year": "2025/26" },
+  { "id": 30, "image": "/assets/gallery/img31.jpeg", "year": "2026/27" },
+  { "id": 31, "image": "/assets/gallery/img32.jpeg", "year": "2026/27" },
+  { "id": 32, "image": "/assets/gallery/img33.jpeg", "year": "2026/27" },
+  { "id": 33, "image": "/assets/gallery/img34.jpeg", "year": "2026/27" }
 ]
