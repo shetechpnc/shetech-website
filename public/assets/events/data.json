@@ -119,5 +119,47 @@
     "year": "2025/26",
     "description": "From Structure to Function by Miss Ayushma Kafle on 6th and 7th Poush, 2082 (Physical)",
     "image": "/assets/events/images/HtmlCssJs.jpeg"
-  }
+  },
+  {
+  "id": 18,
+  "title": "Project to Placement - Build Projects, Ace Interviews",
+  "year": "2025/26",
+  "description": "Build Projects, Ace Interviews by Ms. Swikriti Gyawali and Mr. Prayas Rajopadhyaya on 4th & 5th Magh at 7:00 PM (online).",
+  "image": "/assets/events/images/ProjectToPlacement.jpeg"
+},
+{
+  "id": 19,
+  "title": "Blockchain Explained: From Concept to Application",
+  "year": "2025/26",
+  "description": "Blockchain Explained: From Concept to Application on 10th Falgun at 2:00 PM in CSIT Building, PN Campus.",
+  "image": "/assets/events/images/BlockchainExplained.jpeg"
+},
+{
+  "id": 20,
+  "title": "How to Build an AI Agent: A Beginner's Guide",
+  "year": "2025/26",
+  "description": "How to Build an AI Agent: A Beginner's Guide on Baisakh 7 at 6:00 PM (online).",
+  "image": "/assets/events/images/AIBuildAgent.jpeg"
+},
+{
+  "id": 21,
+  "title": "Build Your First App: Introduction to App Development",
+  "year": "2026/27",
+  "description": "Build Your First App: Introduction to App Development on 4th Asar at 7:00 PM (online).",
+  "image": "/assets/events/images/BuildYourFirstApp.jpeg"
+},
+{
+  "id": 22,
+  "title": "Tech Jumpstart",
+  "year": "2026/27",
+  "description": "Orientation on basic technology, computers and coding for Class 6 students of Chhorepatan Secondary School, Pokhara.",
+  "image": "/assets/events/images/TechJumpstart.jpeg"
+},
+{
+  "id": 23,
+  "title": "IGNITE 2026",
+  "year": "2026/27",
+  "description": "IGNITE 2026 featuring a Treasure Hunt, Ideathon and General Meeting, bringing together teamwork, creativity, innovation and fun on 23rd Shrawan at Auditorium Hall, Prithvi Narayan Campus.",
+  "image": "/assets/events/images/Ignite2026.jpeg"
+}
 ]

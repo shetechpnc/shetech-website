@@ -41,8 +41,6 @@
   { "id": 40, "image": "/assets/gallery/img40.jpg", "year": "2025/26" },
   { "id": 41, "image": "/assets/gallery/img41.jpg", "year": "2025/26" },
   { "id": 42, "image": "/assets/gallery/img42.jpg", "year": "2026/27" },
-  { "id": 43, "image": "/assets/gallery/img43.jpg", "year": "2026/27" },
-  { "id": 44, "image": "/assets/gallery/img44.jpg", "year": "2026/27" },
-  { "id": 45, "image": "/assets/gallery/img45.jpg", "year": "2026/27" }
+  { "id": 43, "image": "/assets/gallery/img43.jpg", "year": "2026/27" }
   
 ]
