@@ -161,5 +161,12 @@
   "year": "2026/27",
   "description": "IGNITE 2026 featuring a Treasure Hunt, Ideathon and General Meeting, bringing together teamwork, creativity, innovation and fun on 23rd Shrawan at Auditorium Hall, Prithvi Narayan Campus.",
   "image": "/assets/events/images/Ignite2026.jpeg"
+},
+{
+  "id": 24,
+  "title": "From Prompt to Post: Mastering Content Creation with AI",
+  "year": "2026/27",
+  "description": "Mastering Content Creation with AI on 18th Bhadra (online via Google Meet).",
+  "image": "/assets/events/images/FromPromptToPost.jpeg"
 }
 ]
