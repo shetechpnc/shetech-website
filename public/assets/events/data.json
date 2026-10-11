@@ -168,5 +168,13 @@
   "year": "2026/27",
   "description": "Mastering Content Creation with AI on 18th Bhadra (online via Google Meet).",
   "image": "/assets/events/images/FromPromptToPost.jpeg"
+},
+{
+  "id": 23,
+  "title": "From Bugs to Better: The Journey of QA Engineering",
+  "year": "2026/27",
+  "date": "24th & 25th Ashoj, Saturday & Sunday",
+  "description": "From Bugs to Better: The Journey of QA Engineering with Ms. Salina Dangol (online via Google Meet).",
+  "image": "/assets/events/images/FromBugsToBetter.jpeg"
 }
 ]
