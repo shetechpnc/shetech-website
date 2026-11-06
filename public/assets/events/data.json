@@ -170,11 +170,18 @@
   "image": "/assets/events/images/FromPromptToPost.jpeg"
 },
 {
-  "id": 23,
+  "id": 25,
   "title": "From Bugs to Better: The Journey of QA Engineering",
   "year": "2026/27",
   "date": "24th & 25th Ashoj, Saturday & Sunday",
   "description": "From Bugs to Better: The Journey of QA Engineering with Ms. Salina Dangol, on 24th & 25th Ashoj (online via Google Meet).",
   "image": "/assets/events/images/FromBugsToBetter.jpeg"
+},
+{
+  "id": 26,
+  "title": "Explore Data Analysis: From Storytelling to Dashboards",
+  "year": "2026/27",
+  "description": "A learning session on data storytelling, data visualization, and dashboard design, featuring a live Tableau demonstration by Ms. Sangya Koirala. Held on 20th Kartik via Google Meet.",
+  "image": "/assets/events/images/ExploreDataAnalysis.jpeg"
 }
 ]
